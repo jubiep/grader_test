@@ -19,7 +19,7 @@ int main(){
 	A[c][d] = temp;
 	
 	for (i=0; i<4; i++){
-		max = [i][0];
+		max = A[i][0];
 		for (j=0; j<5; j++){
 			if (A[i][j] > max){
 				max = A[i][j];
